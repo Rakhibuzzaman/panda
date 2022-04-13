@@ -1,13 +1,241 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panda commerce</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <p>hello panda</p>
-</body>
-</html>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="bootstrap.min.css">
+   <link rel="stylesheet" href="style.css ">
+ </head>
+ <body>
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <!-- <img src="images/logo.png" alt=""> -->
+       <span class="logo-r">R</span><span class="logo-a">AIHAN</span>
+
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#shoes">Shoes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bakpack">Bakpack</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#sing-up">Sing-up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div> 
+
+<!-- carosel-slaide -->
+<div class="container">
+  <div id="carouselExampleControls" class="carousel slide carousel-bg-color" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <h1>Ear Bud Warmer</h1>
+             <p> HB2 earphon is a very good quality. it is a populer headphon it's populer for good sound.</p>
+             <h1 class="price">$239 </h1>
+             <button class="all-button"> Buy Now>></button>
+          </div>
+          <div class="col-md-5">
+            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+
+          </div>
+        </div>
+         
+      </div>
+      <div class="carousel-item">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <h1>Singur LED tv</h1>
+            <p>  singur led tv is a very good quality. it is a populer headphon it's populer for good sound.</p>
+            <h1 class="price">$239 </h1>
+            <button class="all-button"> Buy Now>></button>
+          </div>
+          <div class="col-md-5">
+            <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        
+      </div>
+      <div class="carousel-item">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <h1>Gamer's Remut</h1>
+            <p> HB2 earphon is a very good quality. it is a populer headphon it's populer for good sound.</p>
+            <h1 class="price">$239 </h1>
+            <button class="all-button"> Buy Now>></button>
+          </div>
+          <div class="col-md-5">
+            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+<div class="container categories">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="cat1 d-flex align-items-center justify-content-between">
+        <h1>Watch</h1>
+      <img src="images/categories/watch.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="cat2  d-flex align-items-center justify-content-between">
+        <h1>bag</h1>
+      <img src="images/categories/bag.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="cat3  d-flex align-items-center justify-content-between">
+        <h1>shoes</h1>
+      <img src="images/categories/shoes.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- container-shoes -->
+
+<div class="container" id="shoes">
+  <h3>Shoes juta niben juta</h3>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col shos-radius">
+      <div class="card h-100">
+        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Suply 250</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h5>$180</h5>
+          <button class="all-button"> Buy Now>></button>
+        </div>
+       
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Naiki 240</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h5>$180</h5>
+          <button class="all-button"> Buy Now>></button>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Red yearmax</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <h5>$180</h5>
+          <button class="all-button"> Buy Now>></button>
+
+        </div>
+        
+      </div>
+    </div>
+  </div>
+ </div>
+  <!-- container-backpack -->
+
+  <div class="container" id="bakpack">
+    <h3> Bag niben bag</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Read naltu bag</h5>
+            <h5>$470</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <button class="all-button"> Buy Now>></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ble niltu bag</h5>
+            <h5>$405</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <button class="all-button"> Buy Now>></button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Black kaltu bag</h5>
+            <h5>$590</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <button class="all-button"> Buy Now>></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- container-sing-up -->
+  <div class="container d-flex justify-content-center align-items-center " id="sing-up">
+
+    <div>
+    
+      <h3> LET'S  STAY  IN  TOUCH</h3>
+    <P>Get updates on sales, specials and more</P>
+    <input class="form-control" type="text" >
+    <button class="all-button"> SUBMIT</button>
+    </div>
+
+
+  </div>
+
+  <!-- container-footer -->
+  <div class="container" id="footer">
+    <p>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+  </div>
+   
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ </body>
+ </html>
